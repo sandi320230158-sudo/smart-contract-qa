@@ -101,14 +101,10 @@ Add custom (question, keyword) pairs inside `evaluate.py` under `TEST_QUESTIONS`
 
 ---
 
-##  Run on Google Colab
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/smart-contract-qa/blob/main/notebook.ipynb)
-
-> Replace `YOUR_USERNAME` with your GitHub username after pushing.
 
 ---
 
-## 📄 License
+##  License
 
 MIT — see [LICENSE](LICENSE) for details.
