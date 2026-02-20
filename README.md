@@ -2,9 +2,7 @@
 
 A RAG-powered (Retrieval-Augmented Generation) chatbot that lets you **upload any PDF or DOCX contract and ask questions about it** — all running locally on CPU, no API keys required.
 
-![Python](https://img.shields.io/badge/python-3.10%2B-blue)
-![Gradio](https://img.shields.io/badge/UI-Gradio-orange)
-![LangChain](https://img.shields.io/badge/framework-LangChain-green)
+
 
 ---
 
