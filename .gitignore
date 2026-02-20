@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Secrets / keys
+.env
+*.key
+
+# Uploaded / generated files
+uploaded_docs/
+*.faiss
+*.index
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter (keep .ipynb but ignore checkpoints)
+.ipynb_checkpoints/
