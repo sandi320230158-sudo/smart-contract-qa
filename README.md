@@ -1,4 +1,4 @@
-# 📄 Smart Contract Q&A Assistant
+ Smart Contract Q&A Assistant
 
 A RAG-powered (Retrieval-Augmented Generation) chatbot that lets you **upload any PDF or DOCX contract and ask questions about it** — all running locally on CPU, no API keys required.
 
@@ -8,17 +8,17 @@ A RAG-powered (Retrieval-Augmented Generation) chatbot that lets you **upload an
 
 ---
 
-## ✨ Features
+ Features
 
-- 📁 **Upload** PDF or DOCX contracts
-- 💬 **Chat** with your document using natural language
-- 📝 **Summarize** contracts with one click (map-reduce approach)
-- 🔒 **Guard-rails** — prompt injection detection & relevance filtering
-- 📌 **Source citations** — every answer links back to the exact page
+-  **Upload** PDF or DOCX contracts
+-  **Chat** with your document using natural language
+-  **Summarize** contracts with one click (map-reduce approach)
+-  **Guard-rails** — prompt injection detection & relevance filtering
+-  **Source citations** — every answer links back to the exact page
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Clone the repo
 ```bash
@@ -48,7 +48,7 @@ Open the URL printed in the terminal (usually `http://127.0.0.1:7860`).
 
 ---
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 smart-contract-qa/
@@ -61,7 +61,7 @@ smart-contract-qa/
 
 ---
 
-## ⚙️ Configuration
+##  Configuration
 
 Edit `config.py` to change models or tuning parameters:
 
@@ -77,7 +77,7 @@ Edit `config.py` to change models or tuning parameters:
 
 ---
 
-## 📊 Evaluation
+##  Evaluation
 
 Run retrieval accuracy checks against your own document:
 
@@ -89,7 +89,7 @@ Add custom (question, keyword) pairs inside `evaluate.py` under `TEST_QUESTIONS`
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Library |
 |-------|---------|
@@ -103,7 +103,7 @@ Add custom (question, keyword) pairs inside `evaluate.py` under `TEST_QUESTIONS`
 
 ---
 
-## 🌐 Run on Google Colab
+##  Run on Google Colab
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/smart-contract-qa/blob/main/notebook.ipynb)
 
